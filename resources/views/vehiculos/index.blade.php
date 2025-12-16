@@ -54,7 +54,7 @@
                     @empty
                     <tr>
                         <td colspan="5" class="text-center py-4 text-muted">
-                            No hay vehículos estacionados en este momento.
+                            No hay absolutamente nada.
                         </td>
                     </tr>
                     @endforelse
