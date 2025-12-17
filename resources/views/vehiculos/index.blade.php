@@ -2,7 +2,7 @@
 @section('titulo', 'Vehículos Estacionados')
 @section('contenido')
 <div class="d-flex justify-content-between align-items-center mb-3">
-    <h1>Vehículos en Parqueadero</h1>
+    <h1>Vehículos in the Park</h1>
     <a href="{{ route('vehiculos.create') }}" class="btn btn-primary btn-lg">+ Ingresar Vehículo</a>
 </div>
 

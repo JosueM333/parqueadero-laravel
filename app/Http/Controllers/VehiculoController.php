@@ -56,6 +56,7 @@ class VehiculoController extends Controller
 
     public function destroy(Vehiculo $vehiculo)
     {
+
       
         $entrada = $vehiculo->created_at; 
         $salida = now(); 
@@ -63,15 +64,18 @@ class VehiculoController extends Controller
        
     
    
-        $horas = $entrada->diffInHours($salida);
-        $minutosExtra = $entrada->diffInMinutes($salida) % 60;
+        $horas = intval($entrada->diffInHours($salida));
+        $minutosResiduo =intval( $entrada->diffInMinutes($salida) % 60);
         
-        if ($minutosExtra > 0 || $horas == 0) {
+
+        
+        if ($minutosResiduo > 0  || $horas == 0) {
             $horas++; 
         }
 
         
-        $totalPagar = $horas * 5;
+        $totalPagar =$horas * 5;
+        
 
         
         $vehiculo->delete();
