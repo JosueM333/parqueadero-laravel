@@ -59,17 +59,18 @@ Se utilizó Laravel Herd para la gestión del proyecto.
 <img src="img/herdcmd2.jpeg" width="600" alt="Laravel Herd configuración inicial">
 
 
-**Comandos utilizados para crear mi repositorio y subirlo a GitHub**
+### 3. Comandos utilizados para crear el repositorio y subirlo a GitHub
 
-git init
-git add .
-git config --global user.email "jrsmat500@gmail.com"
-git config --global user.name "JosueM333"
-git commit -m "Primer commit/agregar archivos"
-git branch -M main
-git remote add origin [https://github.com/JosueM333/parqueadero-laravel.git](https://github.com/JosueM333/parqueadero-laravel.git)
-git push -u origin main
+Para inicializar el proyecto y vincularlo con el repositorio remoto, se ejecutaron los siguientes comandos:
 
+* **Inicializar Git:** `git init`
+* **Añadir archivos:** `git add .`
+* **Configurar correo:** `git config --global user.email "jrsmat500@gmail.com"`
+* **Configurar usuario:** `git config --global user.name "JosueM333"`
+* **Primer commit:** `git commit -m "Primer commit/agregar archivos"`
+* **Cambiar a rama principal:** `git branch -M main`
+* **Agregar repositorio remoto:** `git remote add origin https://github.com/JosueM333/parqueadero-laravel.git`
+* **Subir cambios:** `git push -u origin main`
 
 **Configuruación de Base de Datos**
 Crear la base de datos (Opción A - MySQL)
