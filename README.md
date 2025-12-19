@@ -8,6 +8,10 @@
 
 ## Mis Decisiones de Diseño
 
+**Link de mi repositorio**
+* **URL** `https://github.com/JosueM333/parqueadero-laravel.git`
+
+
 ### 1. Tabla
 Se definió la estructura de la tabla con los siguientes campos:
 
